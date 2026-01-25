@@ -396,9 +396,9 @@
 
   // Standard Extruder at 210 Degree Celsius and 100% Fan
   //(measured after M106 S255 with M303 E0 S210 C8)
-  #define DEFAULT_Kp 22.20
-  #define DEFAULT_Ki 1.08
-  #define DEFAULT_Kd 114.00
+  #define DEFAULT_Kp 34.58
+  #define DEFAULT_Ki 5.55
+  #define DEFAULT_Kd 53.82  
 
 #endif // PIDTEMP
 
@@ -448,9 +448,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 111.16
-  #define DEFAULT_bedKi 9.11
-  #define DEFAULT_bedKd 339.20
+  #define DEFAULT_bedKp 136.32
+  #define DEFAULT_bedKi 11.56
+  #define DEFAULT_bedKd 402.02
 #endif // PIDTEMPBED
 
 // @section extruder
